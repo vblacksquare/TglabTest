@@ -1,0 +1,15 @@
+services:
+  tglabtest:
+    container_name: tglabtest
+    build: .
+    restart: always
+    tty: true
+    stdin_open: true
+    user: root
+    ports:
+      - "8000:8000"
+    volumes:
+      - tglabtest:/app
+
+volumes:
+  tglabtest:

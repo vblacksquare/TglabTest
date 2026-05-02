@@ -1,0 +1,12 @@
+djangorestframework
+Django
+pydantic
+pydantic-settings
+psycopg2-binary
+django-cors-headers
+djangorestframework-simplejwt
+drf-spectacular
+asgiref
+uvicorn
+channels
+uvicorn[standard]
